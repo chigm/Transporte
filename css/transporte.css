@@ -116,4 +116,35 @@ h2 {
     
 }
 
+/*fin de home*/
+/*inicio de nosotros*/
+
+.historia p{
+    font-size: 13px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 10px 12px 5px;
+    box-sizing: border-box;
+}
+.persona img{
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0 0 2px black;
+}
+
+.persona h5, 
+.persona h6 {
+    margin: 0;
+    color: #2e64a1;
+}
 
