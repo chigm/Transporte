@@ -99,36 +99,36 @@ h2 {
 }
 
 
-.testimonio .cita{
+.testimonio .cita {
     font-weight: bold;
     font-size: 20px;
     font-style: italic;
     display: flex;
 }
 
-.testimonio .autor{
+.testimonio .autor {
     font-size: 12px;
     margin: 16px 0;
     /*display: block;
     text-align: center;*/
     display: flex;
     justify-content: center;
-    
+
 }
 
 /*fin de home*/
 /*inicio de nosotros*/
 
-.historia p{
+.historia p {
     font-size: 13px;
 }
 
-.personas{
+.personas {
     display: flex;
     justify-content: space-between;
 }
 
-.persona{
+.persona {
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 18%;
@@ -136,15 +136,96 @@ h2 {
     padding: 10px 12px 5px;
     box-sizing: border-box;
 }
-.persona img{
+
+.persona img {
     border-radius: 50%;
     width: 40%;
     box-shadow: 0 0 2px black;
 }
 
-.persona h5, 
+.persona h5,
 .persona h6 {
     margin: 0;
     color: #2e64a1;
+    font-weight: normal;
 }
 
+.persona h5 {
+    font-size: 14px;
+}
+
+.persona h6 {
+    font-style: italic;
+}
+
+.persona p {
+    font-size: 11px;
+    text-align: left;
+}
+
+.formulario p:nth-child(odd) {
+    align-items: start;
+}
+
+.persona:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+/*fin de nosotros*/
+
+/*comienzo de contacto*/
+
+.contacto {
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-between;*/
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+    list-style: none;
+}
+
+/*.formulario p{
+    /*display: flex;*/
+
+
+.formulario p input,
+.formulario p textarea {
+    width: 70%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario p label {
+    width: 80px;
+    /* background-color: yellow;*/
+    display: block;
+}
+
+.formulario textarea {
+    height: 150px;
+    resize: none;
+}
+
+.formulario input[type="submit"] {
+    background-color: #6da9ed;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    padding: 6px;
+    width: auto;
+    position: relative;
+    left: 280px;
+}
